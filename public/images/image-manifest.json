@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-25",
+  "assets": [
+    {
+      "id": "hero-territorio-editorial-v1",
+      "sourceFile": "../../assets/editorial/source/hero-territorio-editorial-v1.png",
+      "role": "hero editorial inspirado en el mockup aprobado",
+      "status": "generated-editorial",
+      "privacy": "personas ficticias; no corresponde a un registro documental ni a beneficiarios reales",
+      "variants": [
+        "editorial/hero-territorio-mock-v2-1920.avif",
+        "editorial/hero-territorio-mock-v2-1920.webp",
+        "editorial/hero-territorio-mock-v2-960.avif",
+        "editorial/hero-territorio-mock-v2-960.webp"
+      ]
+    },
+    {
+      "id": "el-roble-editorial-v1",
+      "sourceFile": "../../assets/editorial/source/el-roble-editorial-v1.png",
+      "role": "visual editorial del contexto cafetero de El Roble",
+      "status": "generated-editorial",
+      "privacy": "persona ficticia; no corresponde a un registro documental del proyecto",
+      "variants": [
+        "editorial/el-roble-mock-v2-1200.avif",
+        "editorial/el-roble-mock-v2-1200.webp",
+        "editorial/el-roble-mock-v2-800.avif",
+        "editorial/el-roble-mock-v2-800.webp"
+      ]
+    },
+    {
+      "id": "publicaciones-editoriales-mock-v2",
+      "sourceFile": "../../assets/editorial/source/publications",
+      "role": "familia de portadas editoriales basada en el mockup aprobado",
+      "status": "generated-editorial",
+      "privacy": "ilustraciones generadas; no sustituyen los archivos descargables de las publicaciones",
+      "variants": [
+        "editorial/publications/manual-agricultor-mock-v2.avif",
+        "editorial/publications/manual-agricultor-mock-v2.webp",
+        "editorial/publications/manejo-asociaciones-mock-v2.avif",
+        "editorial/publications/manejo-asociaciones-mock-v2.webp",
+        "editorial/publications/revista-citricultura-mock-v2.avif",
+        "editorial/publications/revista-citricultura-mock-v2.webp"
+      ]
+    },
+    {
+      "id": "territorio-documental",
+      "sourceFile": "archive/trabajo-territorial-original.jpg",
+      "sourceUrl": "https://www.corporacionlosyarumos.org/",
+      "role": "hero y evidencia territorial",
+      "status": "archived-from-current-site",
+      "privacy": "aprobado para uso editorial institucional en el sitio vigente",
+      "variants": [
+        "territorio-1920.avif",
+        "territorio-1920.webp",
+        "territorio-960.avif",
+        "territorio-960.webp"
+      ]
+    },
+    {
+      "id": "el-roble-banner",
+      "sourceFile": "archive/el-roble-banner-original.png",
+      "sourceUrl": "https://www.corporacionlosyarumos.org/",
+      "role": "caso El Roble",
+      "status": "archived-from-current-site",
+      "privacy": "aprobado para uso editorial institucional en el sitio vigente",
+      "variants": [
+        "el-roble-banner-1200.avif",
+        "el-roble-banner-1200.webp",
+        "el-roble-documental-1000.webp"
+      ]
+    },
+    {
+      "id": "grupo-territorio",
+      "sourceFile": "archive/grupo-territorio-original.jpg",
+      "sourceUrl": "https://www.corporacionlosyarumos.org/",
+      "role": "archivo",
+      "status": "excluded-from-production",
+      "privacy": "requiere confirmación específica de autorización antes de reutilizarse"
+    },
+    {
+      "id": "publicaciones-portadas",
+      "sourceUrl": "https://www.corporacionlosyarumos.org/blog",
+      "role": "biblioteca de conocimiento",
+      "status": "archived-from-current-site",
+      "privacy": "material editorial publicado por la organización",
+      "variants": [
+        "publications/manual-agricultor-768.avif",
+        "publications/manual-agricultor-768.webp",
+        "publications/manejo-asociaciones-768.avif",
+        "publications/manejo-asociaciones-768.webp",
+        "publications/revista-citricultura-768.avif",
+        "publications/revista-citricultura-768.webp"
+      ]
+    }
+  ]
+}

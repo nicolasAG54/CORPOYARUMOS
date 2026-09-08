@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-25T09:07:34.0430281-05:00",
+  "title": "Design System: Corpoyarumos",
+  "extensions": {
+    "colorMeta": {
+      "mineral": {
+        "role": "neutral",
+        "displayName": "Papel mineral",
+        "canonical": "#f3f4ed",
+        "tonalRamp": ["color-mix(in oklch, #f3f4ed 25%, black)", "color-mix(in oklch, #f3f4ed 40%, black)", "color-mix(in oklch, #f3f4ed 58%, black)", "color-mix(in oklch, #f3f4ed 76%, black)", "#f3f4ed", "color-mix(in oklch, #f3f4ed 88%, white)", "color-mix(in oklch, #f3f4ed 68%, white)", "color-mix(in oklch, #f3f4ed 35%, white)"]
+      },
+      "mineral-deep": {
+        "role": "neutral",
+        "displayName": "Mineral profundo",
+        "canonical": "#e7e9df",
+        "tonalRamp": ["color-mix(in oklch, #e7e9df 25%, black)", "color-mix(in oklch, #e7e9df 40%, black)", "color-mix(in oklch, #e7e9df 58%, black)", "color-mix(in oklch, #e7e9df 76%, black)", "#e7e9df", "color-mix(in oklch, #e7e9df 88%, white)", "color-mix(in oklch, #e7e9df 68%, white)", "color-mix(in oklch, #e7e9df 35%, white)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta vegetal",
+        "canonical": "#17241b",
+        "tonalRamp": ["color-mix(in oklch, #17241b 25%, black)", "color-mix(in oklch, #17241b 40%, black)", "color-mix(in oklch, #17241b 58%, black)", "color-mix(in oklch, #17241b 76%, black)", "#17241b", "color-mix(in oklch, #17241b 72%, white)", "color-mix(in oklch, #17241b 45%, white)", "color-mix(in oklch, #17241b 18%, white)"]
+      },
+      "forest": {
+        "role": "primary",
+        "displayName": "Bosque institucional",
+        "canonical": "#244b32",
+        "tonalRamp": ["color-mix(in oklch, #244b32 25%, black)", "color-mix(in oklch, #244b32 40%, black)", "color-mix(in oklch, #244b32 58%, black)", "color-mix(in oklch, #244b32 76%, black)", "#244b32", "color-mix(in oklch, #244b32 72%, white)", "color-mix(in oklch, #244b32 45%, white)", "color-mix(in oklch, #244b32 18%, white)"]
+      },
+      "leaf-dark": {
+        "role": "primary",
+        "displayName": "Hoja profunda",
+        "canonical": "#315e3f",
+        "tonalRamp": ["color-mix(in oklch, #315e3f 25%, black)", "color-mix(in oklch, #315e3f 40%, black)", "color-mix(in oklch, #315e3f 58%, black)", "color-mix(in oklch, #315e3f 76%, black)", "#315e3f", "color-mix(in oklch, #315e3f 72%, white)", "color-mix(in oklch, #315e3f 45%, white)", "color-mix(in oklch, #315e3f 18%, white)"]
+      },
+      "leaf": {
+        "role": "primary",
+        "displayName": "Hoja media",
+        "canonical": "#5e7f52",
+        "tonalRamp": ["color-mix(in oklch, #5e7f52 25%, black)", "color-mix(in oklch, #5e7f52 40%, black)", "color-mix(in oklch, #5e7f52 58%, black)", "color-mix(in oklch, #5e7f52 76%, black)", "#5e7f52", "color-mix(in oklch, #5e7f52 72%, white)", "color-mix(in oklch, #5e7f52 45%, white)", "color-mix(in oklch, #5e7f52 18%, white)"]
+      },
+      "water": {
+        "role": "secondary",
+        "displayName": "Agua territorial",
+        "canonical": "#347d87",
+        "tonalRamp": ["color-mix(in oklch, #347d87 25%, black)", "color-mix(in oklch, #347d87 40%, black)", "color-mix(in oklch, #347d87 58%, black)", "color-mix(in oklch, #347d87 76%, black)", "#347d87", "color-mix(in oklch, #347d87 72%, white)", "color-mix(in oklch, #347d87 45%, white)", "color-mix(in oklch, #347d87 18%, white)"]
+      },
+      "water-dark": {
+        "role": "secondary",
+        "displayName": "Agua profunda",
+        "canonical": "#245f68",
+        "tonalRamp": ["color-mix(in oklch, #245f68 25%, black)", "color-mix(in oklch, #245f68 40%, black)", "color-mix(in oklch, #245f68 58%, black)", "color-mix(in oklch, #245f68 76%, black)", "#245f68", "color-mix(in oklch, #245f68 72%, white)", "color-mix(in oklch, #245f68 45%, white)", "color-mix(in oklch, #245f68 18%, white)"]
+      },
+      "harvest": {
+        "role": "tertiary",
+        "displayName": "Cosecha",
+        "canonical": "#e2b93f",
+        "tonalRamp": ["color-mix(in oklch, #e2b93f 25%, black)", "color-mix(in oklch, #e2b93f 40%, black)", "color-mix(in oklch, #e2b93f 58%, black)", "color-mix(in oklch, #e2b93f 76%, black)", "#e2b93f", "color-mix(in oklch, #e2b93f 72%, white)", "color-mix(in oklch, #e2b93f 45%, white)", "color-mix(in oklch, #e2b93f 18%, white)"]
+      },
+      "harvest-light": {
+        "role": "tertiary",
+        "displayName": "Cosecha clara",
+        "canonical": "#f0ca58",
+        "tonalRamp": ["color-mix(in oklch, #f0ca58 25%, black)", "color-mix(in oklch, #f0ca58 40%, black)", "color-mix(in oklch, #f0ca58 58%, black)", "color-mix(in oklch, #f0ca58 76%, black)", "#f0ca58", "color-mix(in oklch, #f0ca58 72%, white)", "color-mix(in oklch, #f0ca58 45%, white)", "color-mix(in oklch, #f0ca58 18%, white)"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Blanco documental",
+        "canonical": "#fff",
+        "tonalRamp": ["color-mix(in oklch, #fff 25%, black)", "color-mix(in oklch, #fff 40%, black)", "color-mix(in oklch, #fff 58%, black)", "color-mix(in oklch, #fff 76%, black)", "color-mix(in oklch, #fff 88%, black)", "#fff", "#fff", "#fff"]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Texto apagado",
+        "canonical": "#526157",
+        "tonalRamp": ["color-mix(in oklch, #526157 25%, black)", "color-mix(in oklch, #526157 40%, black)", "color-mix(in oklch, #526157 58%, black)", "color-mix(in oklch, #526157 76%, black)", "#526157", "color-mix(in oklch, #526157 72%, white)", "color-mix(in oklch, #526157 45%, white)", "color-mix(in oklch, #526157 18%, white)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Línea de registro",
+        "canonical": "#c8cec5",
+        "tonalRamp": ["color-mix(in oklch, #c8cec5 25%, black)", "color-mix(in oklch, #c8cec5 40%, black)", "color-mix(in oklch, #c8cec5 58%, black)", "color-mix(in oklch, #c8cec5 76%, black)", "#c8cec5", "color-mix(in oklch, #c8cec5 72%, white)", "color-mix(in oklch, #c8cec5 45%, white)", "color-mix(in oklch, #c8cec5 18%, white)"]
+      },
+      "mineral-muted": {
+        "role": "neutral",
+        "displayName": "Mineral apagado",
+        "canonical": "#c9d0c8",
+        "tonalRamp": ["color-mix(in oklch, #c9d0c8 25%, black)", "color-mix(in oklch, #c9d0c8 40%, black)", "color-mix(in oklch, #c9d0c8 58%, black)", "color-mix(in oklch, #c9d0c8 76%, black)", "#c9d0c8", "color-mix(in oklch, #c9d0c8 72%, white)", "color-mix(in oklch, #c9d0c8 45%, white)", "color-mix(in oklch, #c9d0c8 18%, white)"]
+      },
+      "forest-muted": {
+        "role": "neutral",
+        "displayName": "Bosque apagado",
+        "canonical": "#d2ded4",
+        "tonalRamp": ["color-mix(in oklch, #d2ded4 25%, black)", "color-mix(in oklch, #d2ded4 40%, black)", "color-mix(in oklch, #d2ded4 58%, black)", "color-mix(in oklch, #d2ded4 76%, black)", "#d2ded4", "color-mix(in oklch, #d2ded4 72%, white)", "color-mix(in oklch, #d2ded4 45%, white)", "color-mix(in oklch, #d2ded4 18%, white)"]
+      },
+      "water-muted": {
+        "role": "neutral",
+        "displayName": "Agua apagada",
+        "canonical": "#d7e7e9",
+        "tonalRamp": ["color-mix(in oklch, #d7e7e9 25%, black)", "color-mix(in oklch, #d7e7e9 40%, black)", "color-mix(in oklch, #d7e7e9 58%, black)", "color-mix(in oklch, #d7e7e9 76%, black)", "#d7e7e9", "color-mix(in oklch, #d7e7e9 72%, white)", "color-mix(in oklch, #d7e7e9 45%, white)", "color-mix(in oklch, #d7e7e9 18%, white)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Titular editorial", "purpose": "Portadas y aperturas de sección de pocas líneas." },
+      "headline": { "displayName": "Título de capítulo", "purpose": "Encabezados de secciones, territorios y publicaciones." },
+      "title": { "displayName": "Título de registro", "purpose": "Títulos dentro de proyectos, documentos y piezas del archivo." },
+      "body": { "displayName": "Lectura institucional", "purpose": "Narración, contexto, fuentes y explicaciones." },
+      "label": { "displayName": "Control y dato", "purpose": "Navegación, acciones, filtros y etiquetas compactas." }
+    },
+    "shadows": [
+      { "name": "focus-harvest-halo", "value": "0 0 0 6px var(--color-harvest)", "purpose": "Halo funcional que acompaña el contorno agua profundo en foco visible." },
+      { "name": "map-pin-register", "value": "0 0 0 1px var(--color-forest)", "purpose": "Trazo exterior de registro para pines e hitos circulares; no expresa elevación." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "Entradas y respuestas de control." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.77, 0, 0.175, 1)", "purpose": "Desplazamientos que requieren aceleración y desaceleración simétricas." },
+      { "name": "control-press", "value": "140ms", "purpose": "Escala breve al presionar botones y selectores." },
+      { "name": "control-state", "value": "160ms", "purpose": "Cambios de color y selección territorial." },
+      { "name": "navigation-state", "value": "180ms", "purpose": "Subrayado de navegación y apertura del menú." },
+      { "name": "dossier-reveal", "value": "560ms", "purpose": "Entrada escalonada de los grupos del expediente de portada." },
+      { "name": "hero-reveal", "value": "700ms", "purpose": "Entrada de la copia principal con opacidad, recorte y desplazamiento." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Duración efectiva de transiciones bajo prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "compact-navigation", "value": "64rem" },
+      { "name": "single-column-editorial", "value": "56rem" },
+      { "name": "territory-stack", "value": "50rem" },
+      { "name": "publication-stack", "value": "48rem" },
+      { "name": "compact-home", "value": "40rem" },
+      { "name": "smallest", "value": "36rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal cosecha para abrir evidencia o avanzar a un recorrido prioritario.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Conocer El Roble</a>",
+      "css": ".ds-btn-primary{min-height:3rem;display:inline-flex;align-items:center;justify-content:center;padding:.7rem 1.05rem;color:var(--color-ink);background:var(--color-harvest);font:750 var(--text-sm)/1 var(--font-body);text-decoration:none;white-space:nowrap;border:1px solid transparent;border-radius:var(--radius-control);transition:transform 140ms var(--ease-out),background-color 180ms ease}.ds-btn-primary:hover{background:var(--color-harvest-light)}.ds-btn-primary:active{transform:scale(.97)}.ds-btn-primary:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(prefers-reduced-motion:reduce){.ds-btn-primary{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Acción secundaria legible sobre fotografía o tinta oscura.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">Explorar territorios</a>",
+      "css": ".ds-btn-ghost{min-height:3rem;display:inline-flex;align-items:center;justify-content:center;padding:.7rem 1.05rem;color:var(--color-white);background:rgb(23 36 27/.38);font:750 var(--text-sm)/1 var(--font-body);text-decoration:none;white-space:nowrap;border:1px solid rgb(255 255 255/.68);border-radius:var(--radius-control);transition:transform 140ms var(--ease-out),background-color 180ms ease,color 180ms ease}.ds-btn-ghost:hover{color:var(--color-ink);background:var(--color-white)}.ds-btn-ghost:active{transform:scale(.97)}.ds-btn-ghost:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(prefers-reduced-motion:reduce){.ds-btn-ghost{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-contact",
+      "description": "Navegación mineral con subrayado direccional y contacto en bosque.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación principal\"><a class=\"ds-nav-link\" href=\"#\">Proyectos</a><a class=\"ds-nav-link\" href=\"#\">Territorios</a><a class=\"ds-nav-contact\" href=\"#\">Conversemos</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:clamp(1rem,2.1vw,2rem);padding:1rem;background:var(--color-mineral);font:650 var(--text-sm)/1 var(--font-body)}.ds-nav-link{position:relative;color:var(--color-ink);text-decoration:none}.ds-nav-link::after{content:\"\";position:absolute;inset-inline:0;inset-block-end:-.4rem;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform 180ms var(--ease-out)}.ds-nav-link:hover::after{transform:scaleX(1);transform-origin:left}.ds-nav-contact{padding:.72rem 1rem;color:var(--color-white);background:var(--color-forest);text-decoration:none;border-radius:var(--radius-control);transition:transform 140ms var(--ease-out),background-color 180ms ease}.ds-nav-contact:hover{background:var(--color-leaf-dark)}.ds-nav-contact:active{transform:scale(.97)}.ds-nav a:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(prefers-reduced-motion:reduce){.ds-nav-link::after,.ds-nav-contact{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Project Dossier",
+      "kind": "card",
+      "refersTo": "project-dossier",
+      "description": "Expediente tonal que presenta lugar, alcance y fuente antes de la promesa.",
+      "html": "<aside class=\"ds-dossier\"><p class=\"ds-dossier-place\">Ataco, Tolima</p><h2 class=\"ds-dossier-title\">El Roble</h2><p class=\"ds-dossier-summary\">Agronegocio de café sostenible con familias de siete veredas.</p><dl class=\"ds-dossier-data\"><div><dt>Familias</dt><dd>101</dd></div><div><dt>Código</dt><dd>2019-2570007362</dd></div></dl><a class=\"ds-dossier-link\" href=\"#\">Abrir expediente</a></aside>",
+      "css": ".ds-dossier{display:flex;flex-direction:column;gap:1.25rem;padding:clamp(2rem,4.5vw,5rem) clamp(1.5rem,3.8vw,4rem);color:var(--color-white);background:var(--color-forest);font-family:var(--font-body)}.ds-dossier-place{margin:0;color:var(--color-forest-muted);font-size:var(--text-sm);font-weight:720}.ds-dossier-title{margin:0;font:620 clamp(3rem,5vw,5rem)/.95 var(--font-display);letter-spacing:-.035em}.ds-dossier-summary{max-width:33ch;margin:0;color:var(--color-forest-muted);line-height:1.55}.ds-dossier-data{margin:1rem 0 0}.ds-dossier-data div{display:grid;grid-template-columns:minmax(7.25rem,.8fr) 1.2fr;gap:1rem;padding-block:.85rem;border-block-start:1px solid rgb(255 255 255/.23)}.ds-dossier-data dt{color:var(--color-forest-muted);font-size:var(--text-xs)}.ds-dossier-data dd{margin:0;font-size:var(--text-sm);font-weight:700;overflow-wrap:anywhere}.ds-dossier-link{align-self:flex-start;color:var(--color-white);font-weight:750;text-underline-offset:.35em;transition:transform 140ms var(--ease-out)}.ds-dossier-link:active{transform:scale(.97)}.ds-dossier-link:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(prefers-reduced-motion:reduce){.ds-dossier-link{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Evidence Register",
+      "kind": "custom",
+      "refersTo": "evidence-register",
+      "description": "Unidad compacta de la banda de evidencia con icono cosecha y metadato verificable.",
+      "html": "<div class=\"ds-evidence\"><svg class=\"ds-evidence-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 3v3m10-3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13H4V6a1 1 0 0 1 1-1Z\"/></svg><p class=\"ds-evidence-copy\"><strong>Desde 2011</strong><span>Trabajo institucional</span></p></div>",
+      "css": ".ds-evidence{min-height:6.5rem;display:flex;align-items:center;gap:1.1rem;padding:1.25rem clamp(1rem,3vw,2.5rem);color:var(--color-white);background:var(--color-forest);font-family:var(--font-body);border-inline-end:1px solid rgb(255 255 255/.28)}.ds-evidence-icon{width:2rem;height:2rem;flex:0 0 auto;fill:none;stroke:var(--color-harvest);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.ds-evidence-copy{display:flex;flex-direction:column;gap:.35rem;margin:0}.ds-evidence-copy strong{font:650 clamp(1.25rem,2.3vw,1.85rem)/1 var(--font-display);letter-spacing:-.025em}.ds-evidence-copy span{color:var(--color-forest-muted);font-size:var(--text-sm)}"
+    },
+    {
+      "name": "Selected Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Filtro de archivo que comunica selección mediante tinta y borde, sin relleno decorativo.",
+      "html": "<button class=\"ds-filter-chip ds-filter-chip-selected\" type=\"button\" aria-pressed=\"true\">Todos</button>",
+      "css": ".ds-filter-chip{min-height:2.6rem;padding-inline:.85rem;color:var(--color-text-muted);background:transparent;font:680 var(--text-sm)/1 var(--font-body);border:1px solid transparent;border-radius:var(--radius-control);cursor:pointer;transition:transform 140ms var(--ease-out),color 160ms ease,border-color 160ms ease}.ds-filter-chip:hover{color:var(--color-ink);border-color:var(--color-line)}.ds-filter-chip-selected{color:var(--color-ink);border-color:var(--color-ink)}.ds-filter-chip:active{transform:scale(.97)}.ds-filter-chip:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(prefers-reduced-motion:reduce){.ds-filter-chip{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Territory Selector",
+      "kind": "button",
+      "refersTo": "territory-selector",
+      "description": "Fila accesible que replica la selección del atlas y expone territorio, nota y proyectos.",
+      "html": "<button class=\"ds-territory-selector ds-territory-selected\" type=\"button\" aria-pressed=\"true\"><span class=\"ds-territory-name\">Ataco</span><small class=\"ds-territory-note\">Tolima</small><em class=\"ds-territory-projects\">Proyecto El Roble</em></button>",
+      "css": ".ds-territory-selector{width:100%;display:grid;grid-template-columns:1fr auto;gap:.35rem 1rem;padding:1.25rem 0;color:var(--color-text-muted);background:transparent;font-family:var(--font-body);text-align:left;border:0;border-block-end:1px solid var(--color-line);cursor:pointer;transition:color 160ms ease,transform 140ms var(--ease-out)}.ds-territory-name{color:var(--color-ink);font:600 1.5rem/1.1 var(--font-display)}.ds-territory-note{align-self:center;font-size:var(--text-xs)}.ds-territory-projects{grid-column:1/-1;font-size:var(--text-xs);font-style:normal}.ds-territory-selector:hover,.ds-territory-selector:hover .ds-territory-name,.ds-territory-selected,.ds-territory-selected .ds-territory-name{color:var(--color-water-dark)}.ds-territory-selector:active{transform:scale(.98)}.ds-territory-selector:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(prefers-reduced-motion:reduce){.ds-territory-selector{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Territorial Map Panel",
+      "kind": "custom",
+      "refersTo": "map-panel",
+      "description": "Abstracción territorial sin escala con río cosecha y selección textual equivalente.",
+      "html": "<div class=\"ds-map-panel\"><svg class=\"ds-map-svg\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Abstracción territorial sin escala\"><path class=\"ds-map-outline\" d=\"M48 4 66 12 78 31 73 47 86 61 76 86 56 96 39 87 26 72 18 49 29 31 31 14Z\"/><path class=\"ds-map-river\" d=\"M63 11C52 29 62 38 51 49S43 70 55 91\"/><circle class=\"ds-map-point\" cx=\"43\" cy=\"58\" r=\"4.18\"/></svg><div class=\"ds-map-caption\"><strong>Ataco</strong><span>Proyecto documentado</span></div><p class=\"ds-map-disclaimer\">Abstracción territorial sin escala.</p></div>",
+      "css": ".ds-map-panel{min-width:0;padding:clamp(1.5rem,4vw,3.5rem);color:var(--color-mineral);background:var(--color-water-dark);font-family:var(--font-body);border-radius:var(--radius-panel)}.ds-map-svg{width:100%;max-height:24rem;display:block}.ds-map-outline{fill:color-mix(in srgb,var(--color-water) 42%,var(--color-water-dark));stroke:var(--color-mineral);stroke-width:.45}.ds-map-river{fill:none;stroke:var(--color-harvest);stroke-width:.8;stroke-linecap:round}.ds-map-point{fill:var(--color-harvest);stroke:var(--color-water-dark);stroke-width:.5}.ds-map-caption{display:flex;justify-content:space-between;gap:2rem;padding-block-start:1.25rem;border-block-start:1px solid rgb(255 255 255/.3)}.ds-map-caption strong{font:620 clamp(1.8rem,4vw,3rem)/1 var(--font-display)}.ds-map-caption span{max-width:34ch;color:var(--color-water-muted);text-align:right}.ds-map-disclaimer{margin:.75rem 0 0;color:var(--color-water-muted);font-size:var(--text-xs)}"
+    },
+    {
+      "name": "Document Ledger Row",
+      "kind": "custom",
+      "refersTo": "document-ledger",
+      "description": "Registro editorial plano para categoría, documento, estado y acción verificable.",
+      "html": "<article class=\"ds-document-row\"><span class=\"ds-document-category\">Gobierno corporativo</span><h2 class=\"ds-document-title\">Documento institucional</h2><small class=\"ds-document-state\">Enlace verificado</small><a class=\"ds-document-action\" href=\"#\">Abrir documento</a></article>",
+      "css": ".ds-document-row{display:grid;grid-template-columns:minmax(10rem,.6fr) 1.3fr .9fr .45fr;gap:clamp(1rem,3vw,3rem);align-items:baseline;padding-block:1.5rem;color:var(--color-ink);background:var(--color-mineral);font-family:var(--font-body);border-block:1px solid var(--color-line)}.ds-document-category,.ds-document-state{color:var(--color-text-muted);font-size:var(--text-xs)}.ds-document-title{margin:0;font:600 clamp(1.4rem,2.6vw,2.2rem)/1.1 var(--font-display);letter-spacing:-.02em}.ds-document-action{color:var(--color-ink);font-weight:750;text-align:right;text-underline-offset:.3em}.ds-document-action:focus-visible{outline:3px solid var(--color-water-dark);outline-offset:3px;box-shadow:0 0 0 6px var(--color-harvest)}@media(max-width:48rem){.ds-document-row{grid-template-columns:1fr 1fr}.ds-document-title{grid-column:1/-1}.ds-document-action{text-align:left}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Bitácora de trazabilidad territorial",
+    "overview": "Corpoyarumos se presenta como el expediente vivo de una organización que sabe estar en el territorio y también rendir cuentas. La experiencia combina panorama documental, datos verificables, registros editoriales y navegación territorial para que la evidencia preceda a la promesa.\n\nEl sistema es sobrio, humano y técnico: fondos minerales planos, bloques tonales oscuros, reglas finas, fotografía de archivo real y una jerarquía editorial amplia. La portada une panorama y expediente; Territorios funciona como atlas navegable con lista equivalente; Proyectos y Conocimiento adoptan capítulos, fichas y pies de fuente. El logo “Abrazo territorial” es la identidad provisional implementada y conserva figura humana, territorio o río, ciclo y acento cosecha.\n\nLa interfaz evita el aspecto SaaS, las colecciones de tarjetas genéricas, el glassmorphism y los gradientes decorativos. El sombreado sobre fotografía se limita a asegurar legibilidad; no define superficies. La fotografía conceptual nunca se presenta como evidencia institucional.",
+    "keyCharacteristics": [
+      "Evidencia real antes que promesa o cifra agregada.",
+      "Composición editorial asimétrica con densidad media-baja.",
+      "Atlas territorial navegable acompañado por una lista equivalente.",
+      "Material de archivo, portadas reales, metadatos, fechas y fuentes visibles.",
+      "Movimiento breve, legible y completamente reducible."
+    ],
+    "rules": [
+      { "name": "The Evidence Accent Rule", "body": "Cosecha destaca una acción o un dato verificable; no rellena grandes superficies ni decora secciones sin función.", "section": "colors" },
+      { "name": "The Water Navigation Rule", "body": "Agua identifica navegación territorial, selección y foco; no sustituye indiscriminadamente al bosque institucional.", "section": "colors" },
+      { "name": "The Editorial Pairing Rule", "body": "Literata narra y jerarquiza; Public Sans opera, identifica y explica.", "section": "typography" },
+      { "name": "The Equivalent Route Rule", "body": "Toda abstracción territorial interactiva debe conservar una lista HTML que entregue la misma selección e información.", "section": "layout" },
+      { "name": "The Tonal Depth Rule", "body": "Una superficie se separa por tono, borde o composición; nunca por una sombra genérica de tarjeta.", "section": "elevation" },
+      { "name": "The Reserved Roundness Rule", "body": "Los radios suavizan interacción y material documental, pero no convierten cada sección en una tarjeta flotante.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do abrir con evidencia reconocible: fotografía de archivo, una ficha, una fecha, un territorio o una fuente.",
+      "Do mantener fondos planos o tonales, reglas finas y jerarquía editorial clara.",
+      "Do usar el recorte real del banner de El Roble y las portadas reales con pies y metadatos que expliquen su origen.",
+      "Do mantener atlas y lista sincronizados, accesibles por teclado y explícitamente descritos como abstracción sin escala.",
+      "Do reservar agua y cosecha para selección, foco, acción o evidencia relevante.",
+      "Do conservar “Abrazo territorial” como logo provisional hasta que exista una decisión de identidad posterior."
+    ],
+    "donts": [
+      "Don't presentar fotografía conceptual, generada o de stock como evidencia de trabajo territorial.",
+      "Don't inventar cifras, resultados, cobertura, fuentes, testimonios o precisión cartográfica.",
+      "Don't usar glassmorphism, gradientes decorativos, sombras de tarjeta o bento genérico.",
+      "Don't convertir cada dato o sección en una tarjeta redondeada.",
+      "Don't animar por espectáculo ni ocultar información esencial dentro de una imagen o del mapa."
+    ]
+  }
+}

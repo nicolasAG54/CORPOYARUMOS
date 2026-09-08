@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 540" role="img" aria-labelledby="title desc">
+  <title id="title">Corpoyarumos</title>
+  <desc id="desc">Símbolo Abrazo territorial sobre el nombre Corpoyarumos.</desc>
+  <defs>
+    <mask id="river-cut">
+      <rect width="256" height="256" fill="#fff"/>
+      <path d="M77 150c29-15 68-15 116-7-37 11-66 30-87 58-11-12-22-25-33-38-5-6-3-11 4-13Z" fill="#000"/>
+    </mask>
+  </defs>
+  <g transform="translate(182 18)">
+    <path fill="#E2B93F" d="M139 111a32 32 0 0 1 64 0v22h-64Z"/>
+    <path fill="#244B32" d="M125 20C67 23 27 66 27 122c0 51 34 91 85 108-21-19-34-41-36-66-18-17-24-39-19-63 7-32 31-56 68-61Z"/>
+    <circle cx="91" cy="82" r="19" fill="#244B32"/>
+    <path fill="#244B32" d="M57 105c32-3 61 5 89 19 18 9 35 12 62 10 7 0 10 5 7 10-4 7-13 8-23 8-23 0-44-6-63-16-25-13-48-15-72-11Z"/>
+    <path fill="#347D87" mask="url(#river-cut)" d="M79 144c39-14 83-13 137-3-2 39-27 70-64 84-28-18-53-38-76-60-8-8-7-17 3-21Z"/>
+  </g>
+  <text x="310" y="370" text-anchor="middle" fill="#244B32" font-family="'Public Sans', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="4">CORPOYARUMOS</text>
+  <text x="310" y="420" text-anchor="middle" fill="#506057" font-family="'Public Sans', Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="5">CORPORACIÓN LOS YARUMOS</text>
+</svg>

@@ -1,0 +1,20 @@
+<header class="transparency-hero">
+  <h1>Transparencia que se puede consultar.</h1>
+  <p>Gobierno corporativo, cumplimiento, datos personales e información tributaria organizados como un registro documental.</p>
+</header>
+
+<main class="document-ledger">
+  @for (document of documents; track document.url) {
+    <article>
+      <span>{{ document.category }}</span>
+      <h2>{{ document.title }}</h2>
+      <small>{{ document.contentStatus === 'VERIFIED' ? 'Enlace verificado en el sitio vigente' : 'Revisión requerida' }}</small>
+      <a [href]="document.url" target="_blank" rel="noopener">Abrir documento</a>
+    </article>
+  }
+</main>
+
+<section class="migration-note">
+  <h2>Migración documental pendiente</h2>
+  <p>Los archivos aún dependen de Google Drive o del CDN del constructor. La publicación final debe registrar año, tipo, fecha, versión y peso en almacenamiento institucional durable.</p>
+</section>

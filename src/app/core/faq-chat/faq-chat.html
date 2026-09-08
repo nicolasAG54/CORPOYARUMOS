@@ -1,0 +1,121 @@
+<div class="faq-chat" [class.is-open]="panelOpen()">
+  @if (panelOpen()) {
+    <section
+      id="faq-chat-panel"
+      class="chat-panel"
+      role="dialog"
+      aria-labelledby="faq-chat-title"
+      aria-describedby="faq-chat-description"
+      (keydown)="handlePanelKeydown($event)"
+    >
+      <header class="chat-header">
+        <div class="chat-identity">
+          <span class="chat-mark" aria-hidden="true">
+            <svg viewBox="0 0 28 28">
+              <path
+                d="M5 18.5c4.1.1 6.8-1.4 8.2-4.6 1.4 3.2 4.1 4.7 8.3 4.6-2.7 2.3-5.4 3.4-8.3 3.4S7.7 20.8 5 18.5Z"
+              />
+              <path d="M13.2 14V6.5M9.8 10l3.4 4 3.5-4" />
+              <circle cx="13.2" cy="5" r="2" />
+            </svg>
+          </span>
+          <div>
+            <h2 id="faq-chat-title">Yarumos responde</h2>
+            <p id="faq-chat-description">Orientación rápida sobre el sitio</p>
+          </div>
+        </div>
+        <div class="chat-header-actions">
+          <button
+            type="button"
+            class="icon-button"
+            aria-label="Reiniciar conversación"
+            (click)="resetConversation()"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 8a8 8 0 1 1-.5 7M5 8V3m0 5h5" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="icon-button"
+            aria-label="Cerrar asistente"
+            (click)="closePanel()"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+          </button>
+        </div>
+      </header>
+
+      <div #chatLog class="chat-log" aria-live="polite" aria-relevant="additions">
+        @for (message of messages(); track message.id) {
+          <article class="message" [class.message-user]="message.sender === 'user'">
+            <span>{{ message.sender === 'assistant' ? 'Yarumos' : 'Tú' }}</span>
+            <p>{{ message.text }}</p>
+            @if (message.route && message.linkLabel) {
+              <a [routerLink]="message.route" (click)="closePanel()">
+                {{ message.linkLabel }}
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 6 6-6 6" /></svg>
+              </a>
+            }
+          </article>
+        }
+
+        @if (isReplying()) {
+          <div class="typing-status" role="status">
+            <span></span><span></span><span></span>
+            <span class="visually-hidden">Preparando respuesta</span>
+          </div>
+        }
+      </div>
+
+      @if (messages().length === 1) {
+        <div class="suggestions" aria-label="Preguntas sugeridas">
+          @for (entry of suggestions; track entry.id) {
+            <button type="button" (click)="askSuggested(entry)">{{ entry.question }}</button>
+          }
+        </div>
+      }
+
+      <form class="chat-form" (submit)="submitQuestion($event)">
+        <label for="faq-question">Escribe tu pregunta</label>
+        <div class="question-control">
+          <input
+            #questionInput
+            id="faq-question"
+            name="question"
+            type="text"
+            maxlength="180"
+            autocomplete="off"
+            placeholder="Ej. ¿Dónde veo los proyectos?"
+            [disabled]="isReplying()"
+          />
+          <button type="submit" [disabled]="isReplying()" aria-label="Enviar pregunta">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m5 12 13-7-3 14-4-5-6-2Zm6 2 7-9" />
+            </svg>
+          </button>
+        </div>
+      </form>
+
+      <p class="chat-note">No solicita ni almacena datos personales.</p>
+    </section>
+  }
+
+  @if (!panelOpen()) {
+    <button
+      #launcher
+      type="button"
+      class="chat-launcher"
+      aria-expanded="false"
+      aria-controls="faq-chat-panel"
+      aria-label="Abrir asistente de preguntas frecuentes"
+      (click)="togglePanel()"
+    >
+      <svg viewBox="0 0 28 28" aria-hidden="true">
+        <path d="M5 6.5h18v13H12l-5.5 3v-3H5v-13Z" />
+        <path d="M9 11h10M9 15h7" />
+      </svg>
+      <span>¿Tienes preguntas?</span>
+    </button>
+  }
+</div>

@@ -1,0 +1,92 @@
+<article class="contact-shell">
+  <header class="contact-intro">
+    <div>
+      <span class="eyebrow">Contacto institucional</span>
+      <h1>Conversemos sobre el territorio.</h1>
+    </div>
+    <div class="contact-copy">
+      <p>Cuéntanos qué quieres construir, investigar o movilizar junto a Corpoyarumos.</p>
+      <p>
+        Al preparar el mensaje se abrirá tu aplicación de correo para que puedas revisarlo antes de
+        enviarlo.
+      </p>
+    </div>
+  </header>
+
+  <div class="contact-grid">
+    <form class="contact-form" (submit)="submitContact($event)">
+      <div class="form-heading">
+        <span>01</span>
+        <h2>Iniciar una conversación</h2>
+      </div>
+
+      <div class="field-grid">
+        <label class="field">
+          <span>Nombre y apellidos</span>
+          <input name="name" type="text" autocomplete="name" required />
+        </label>
+
+        <label class="field">
+          <span>Correo electrónico</span>
+          <input name="email" type="email" autocomplete="email" required />
+        </label>
+
+        <label class="field">
+          <span>Organización <small>(opcional)</small></span>
+          <input name="organization" type="text" autocomplete="organization" />
+        </label>
+
+        <label class="field">
+          <span>Tema</span>
+          <select name="topic" required>
+            <option value="" selected disabled>Selecciona una opción</option>
+            <option>Alianzas y proyectos</option>
+            <option>Servicios y extensión agropecuaria</option>
+            <option>Publicaciones y conocimiento</option>
+            <option>Convocatorias</option>
+            <option>Otro</option>
+          </select>
+        </label>
+      </div>
+
+      <label class="field field-message">
+        <span>Mensaje</span>
+        <textarea name="message" rows="7" minlength="20" maxlength="2000" required></textarea>
+        <small>Incluye el municipio o territorio si es relevante.</small>
+      </label>
+
+      <label class="honeypot" aria-hidden="true">
+        <span>Sitio web</span>
+        <input name="website" type="text" tabindex="-1" autocomplete="off" />
+      </label>
+
+      <label class="consent">
+        <input name="privacy" type="checkbox" required />
+        <span
+          >He leído la información de
+          <a routerLink="/transparencia">tratamiento y transparencia</a>.</span
+        >
+      </label>
+
+      <div class="form-actions">
+        <button type="submit">Preparar mensaje</button>
+        @if (mailPrepared()) {
+          <p role="status">
+            Mensaje preparado. Si el correo no se abrió, utiliza el canal directo.
+          </p>
+        }
+      </div>
+    </form>
+
+    <aside class="direct-channel">
+      <span class="channel-number">02</span>
+      <div>
+        <h2>Canal directo</h2>
+        <p>También puedes escribirnos directamente y conservar una copia de la conversación.</p>
+      </div>
+      <a href="mailto:corpoyarumos@corporacionlosyarumos.org">
+        corpoyarumos&#64;corporacionlosyarumos.org
+      </a>
+    </aside>
+  </div>
+</article>

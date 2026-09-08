@@ -1,0 +1,9 @@
+{
+  "name": "Abrazo territorial",
+  "sourceReference": "../references/corpoyarumos-logo-current.jpg",
+  "promptFile": "logo-01-abrazo-territorial.prompt.txt",
+  "approved": true,
+  "status": "approved_direction",
+  "approvedAt": "2026-08-24",
+  "note": "Dirección aprobada por el usuario. El símbolo final se desarrolla en iteraciones refinadas y SVG."
+}

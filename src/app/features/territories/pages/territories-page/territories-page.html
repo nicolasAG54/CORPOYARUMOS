@@ -1,0 +1,38 @@
+<header class="territory-hero">
+  <h1>El territorio como sistema de relaciones.</h1>
+  <p>Municipios, contratos y aprendizajes conectados por evidencia. El mapa usa los límites municipales oficiales del Tolima y la lista ofrece la misma información de forma accesible.</p>
+</header>
+
+<main class="territory-explorer">
+  <div class="map-panel">
+    <svg viewBox="0 0 100 100" role="img" aria-labelledby="territory-map-title territory-map-desc">
+      <title id="territory-map-title">Esquema de municipios con proyectos documentados</title>
+      <desc id="territory-map-desc">Los límites oficiales de los 47 municipios del Tolima y siete puntos que representan municipios presentes en el archivo institucional.</desc>
+      <image class="map-geometry" href="maps/tolima-editorial-mock-v3.svg" width="100" height="100" />
+      @for (territory of territories; track territory.name) {
+        <g class="map-point" [class.is-selected]="selectedTerritory().name === territory.name" [attr.transform]="'translate(' + territory.x + ' ' + territory.y + ')'">
+          <circle r="2.2" />
+        </g>
+      }
+    </svg>
+    <div class="selected-place" aria-live="polite">
+      <strong>{{ selectedTerritory().name }}</strong>
+      <span>{{ selectedTerritory().projects }}</span>
+    </div>
+  </div>
+
+  <div class="territory-index">
+    @for (territory of territories; track territory.name) {
+      <button type="button" [class.is-selected]="selectedTerritory().name === territory.name" [attr.aria-pressed]="selectedTerritory().name === territory.name" (click)="selectTerritory(territory)">
+        <span>{{ territory.name }}</span>
+        <small>{{ territory.note }}</small>
+        <em>{{ territory.projects }}</em>
+      </button>
+    }
+  </div>
+</main>
+
+<section class="territory-note">
+  <h2>Alcance geográfico prudente.</h2>
+  <p>El archivo registra otros municipios en proyectos específicos. Esta primera visualización prioriza los territorios con mayor evidencia estructurada y se ampliará al migrar cada ficha.</p>
+</section>

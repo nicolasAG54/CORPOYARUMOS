@@ -1,0 +1,45 @@
+<header class="archive-hero">
+  <div>
+    <h1>Proyectos que dejan rastro.</h1>
+    <p>Contratos, territorios y alcances presentados con su periodo y estado editorial. Las cifras no se suman entre proyectos.</p>
+  </div>
+  <dl>
+    <div><dt>Archivo visible</dt><dd>{{ projects().length }} proyectos</dd></div>
+    <div><dt>Periodo documentado</dt><dd>2013-2023</dd></div>
+  </dl>
+</header>
+
+<main class="archive-shell">
+  <div class="filter-bar" aria-label="Filtrar proyectos por campo">
+    @for (filter of filters; track filter) {
+      <button type="button" [class.is-selected]="selectedFilter() === filter" [attr.aria-pressed]="selectedFilter() === filter" (click)="setFilter(filter)">{{ filter }}</button>
+    }
+  </div>
+
+  <div class="project-ledger" aria-live="polite">
+    @for (project of projects(); track project.slug) {
+      <article>
+        <time>{{ project.period }}</time>
+        <div class="project-main">
+          <h2>{{ project.title }}</h2>
+          <p>{{ project.territory }}</p>
+        </div>
+        <div class="project-evidence">
+          <span>{{ project.evidence }}</span>
+          @if (project.contentStatus === 'CONTENT_REVIEW_REQUIRED') {
+            <small>Dato territorial por revisar</small>
+          }
+        </div>
+        <div class="project-action">
+          @if (project.slug === 'el-roble') {
+            <a [routerLink]="['/proyectos', project.slug]">Abrir expediente</a>
+          } @else {
+            <span>Ficha en preparación</span>
+          }
+        </div>
+      </article>
+    } @empty {
+      <p class="empty-state">No hay proyectos documentados para este filtro.</p>
+    }
+  </div>
+</main>

@@ -1,0 +1,12 @@
+{
+  "name": "Abrazo territorial — refinado v1",
+  "sourceReferences": [
+    "../references/corpoyarumos-logo-current.jpg",
+    "logo-01-abrazo-territorial.png"
+  ],
+  "promptFile": "logo-01-abrazo-territorial-refinado-v1.prompt.txt",
+  "approved": true,
+  "status": "approved_refinement",
+  "approvedAt": "2026-08-25",
+  "note": "La dirección y el refinamiento visual Abrazo territorial están aprobados. El SVG reproducible continúa marcado como provisional hasta completar su ajuste óptico de producción."
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 120" role="img" aria-labelledby="title desc">
+  <title id="title">Corpoyarumos</title>
+  <desc id="desc">Símbolo Abrazo territorial y wordmark Corpoyarumos.</desc>
+  <defs>
+    <mask id="lockup-river-v4">
+      <rect width="120" height="120" fill="#fff"/>
+      <path d="M41 69c18-9 37-9 58-5-18 6-33 15-44 27-5-5-10-9-15-14-5-4-5-6 1-8Z" fill="#000"/>
+    </mask>
+  </defs>
+  <g>
+    <path fill="#E8B719" d="M54 55c3-11 12-18 24-18 14 0 25 9 27 21H77c-8 0-16-1-23-3Z"/>
+    <path fill="#174A31" d="M58 8C28 12 10 35 10 61c0 24 16 42 48 49-14-10-23-22-25-36-9-8-12-19-9-31 4-17 17-27 34-31Z"/>
+    <circle cx="42" cy="34" r="9" fill="#174A31"/>
+    <path fill="#174A31" stroke="#F3F4ED" stroke-width="4" stroke-linejoin="round" d="M27 49c15-2 28 1 41 7 8 4 14 5 21 4 4-1 7 2 5 5-2 4-7 5-14 4-11-1-21-4-30-9-8-4-15-5-23-3Z"/>
+    <path fill="#2E858C" mask="url(#lockup-river-v4)" d="M42 62c18-7 39-7 62-3 0 18-10 34-28 44-14-8-26-17-37-27-5-5-3-11 3-14Z"/>
+  </g>
+  <text x="126" y="75" fill="#174A31" font-family="'Public Sans', Arial, Helvetica, sans-serif" font-size="33" font-weight="700" letter-spacing="1.9">CORPOYARUMOS</text>
+</svg>

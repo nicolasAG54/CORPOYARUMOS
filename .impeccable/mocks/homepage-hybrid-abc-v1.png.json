@@ -1,0 +1,14 @@
+{
+  "name": "Homepage híbrida A+B+C v1",
+  "directionApproved": true,
+  "approved": true,
+  "status": "approved",
+  "approvedAt": "2026-08-25",
+  "promptFile": "homepage-hybrid-abc-v1.prompt.txt",
+  "sourceComps": [
+    "homepage-a-panorama-expediente.png",
+    "homepage-b-atlas-intervencion.png",
+    "homepage-c-cronica-campo.png"
+  ],
+  "truthNote": "La composición visual está aprobada. Las fotografías siguen siendo conceptuales y no pueden usarse como evidencia en producción. El contenido numérico visible fue limitado a datos auditados; contacto permanece por verificar."
+}

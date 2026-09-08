@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo Corpoyarumos</title>
+  <desc id="desc">Una figura humana abraza un territorio atravesado por un río frente al sol.</desc>
+  <defs>
+    <mask id="territory-river">
+      <rect width="256" height="256" fill="#fff"/>
+      <path d="M69 158c35-23 79-25 139-15-43 12-76 34-101 65-10-11-21-22-33-33-9-8-11-13-5-17Z" fill="#000"/>
+    </mask>
+  </defs>
+  <path fill="#E7B91F" d="M137 111a34 34 0 0 1 68 0v21h-68Z"/>
+  <path fill="#174A31" d="M132 17C68 19 25 65 25 124c0 52 35 94 94 113-24-21-39-44-43-70-18-17-25-39-20-64 7-35 33-61 76-67Z"/>
+  <circle cx="91" cy="82" r="19" fill="#174A31"/>
+  <path fill="#174A31" d="M57 106c34-4 62 3 89 18 20 11 40 13 66 10 8-1 12 4 9 10-4 8-15 10-28 9-24-1-45-7-65-17-24-13-47-16-71-12Z"/>
+  <path fill="#2E7F86" mask="url(#territory-river)" d="M78 143c42-15 88-14 141-3-2 40-28 72-67 87-29-18-55-39-78-61-9-9-7-19 4-23Z"/>
+</svg>

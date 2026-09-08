@@ -1,0 +1,8 @@
+{
+  "name": "Panorama + expediente",
+  "promptFile": "homepage-a-panorama-expediente.prompt.txt",
+  "approved": true,
+  "status": "approved",
+  "approvedAt": "2026-08-24",
+  "approvalNote": "Aprobado por el usuario como base visual; la identidad del logo debe revisarse antes de trasladar el comp a producción."
+}

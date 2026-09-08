@@ -1,0 +1,59 @@
+<header class="site-header">
+  <div class="utility-bar">
+    <div class="utility-inner">
+      <nav aria-label="Servicios de consulta">
+        <a routerLink="/verificar-certificados"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m12 3 7 3v5c0 4.4-2.8 8-7 10-4.2-2-7-5.6-7-10V6l7-3Z" />
+            <path d="m9 12 2 2 4-5" /></svg
+          >Verificar certificados</a
+        >
+        <a routerLink="/fommur"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 21v-9m0 0c-4.5 0-7-2.4-7-6 4.5 0 7 2.4 7 6Zm0 0c4.5 0 7-2.4 7-6-4.5 0-7 2.4-7 6Z"
+            /></svg
+          >FOMMUR Línea 3</a
+        >
+      </nav>
+      <span>Corporación colombiana de desarrollo territorial</span>
+    </div>
+  </div>
+  <div class="nav-shell">
+    <a
+      class="brand"
+      routerLink="/"
+      aria-label="Corporación los Yarumos, ir al inicio"
+      (click)="closeMenu()"
+    >
+      <img
+        src="brand/corporacion-los-yarumos-logo-horizontal-full-color.svg"
+        width="615"
+        height="145"
+        alt="Corporación los Yarumos — Trabajando por el desarrollo sostenible"
+      />
+    </a>
+    <button
+      class="menu-button"
+      type="button"
+      [attr.aria-expanded]="menuOpen()"
+      aria-controls="primary-navigation"
+      (click)="toggleMenu()"
+    >
+      {{ menuOpen() ? 'Cerrar' : 'Menú' }}
+    </button>
+    <nav
+      id="primary-navigation"
+      class="primary-navigation"
+      [class.is-open]="menuOpen()"
+      aria-label="Navegación principal"
+    >
+      <a routerLink="/corporacion" (click)="closeMenu()">La Corporación</a>
+      <a routerLink="/proyectos" (click)="closeMenu()">Proyectos e impacto</a>
+      <a routerLink="/territorios" (click)="closeMenu()">Territorios</a>
+      <a routerLink="/conocimiento" (click)="closeMenu()">Conocimiento</a>
+      <a routerLink="/transparencia" (click)="closeMenu()">Transparencia</a>
+      <a class="contact-link" routerLink="/contacto" (click)="closeMenu()">Conversemos</a>
+    </nav>
+  </div>
+</header>

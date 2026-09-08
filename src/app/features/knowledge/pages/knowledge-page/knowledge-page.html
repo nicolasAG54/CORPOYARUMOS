@@ -1,0 +1,41 @@
+<header class="knowledge-hero">
+  <h1>Conocimiento que regresa al territorio.</h1>
+  <p>Publicaciones, metodologías y aprendizajes asociados a proyectos concretos, con autoría, fecha e identificador visibles.</p>
+</header>
+
+<main class="publication-archive">
+  @for (publication of publications; track publication.title; let index = $index) {
+    <article>
+      <picture class="publication-cover">
+        <img [src]="publication.coverWebp" width="768" height="1059" loading="lazy" decoding="async" [alt]="'Portada publicada de ' + publication.title">
+      </picture>
+      <div class="publication-copy">
+        <h2>{{ publication.title }}</h2>
+        <dl>
+          <div><dt>Autoría y aliados</dt><dd>{{ publication.authorship }}</dd></div>
+          <div><dt>Fecha</dt><dd>{{ publication.year }}</dd></div>
+          <div><dt>Identificador</dt><dd>{{ publication.identifier }}</dd></div>
+        </dl>
+        @if (publication.contentStatus === 'CONTENT_REVIEW_REQUIRED') {
+          <p class="review-note">El identificador mostrado en el sitio podría estar duplicado y requiere revisión editorial.</p>
+        }
+        @if (index === 2) {
+          <a href="https://assets.zyrosite.com/YZ95Rknr0PFEe4EE/memorias-AzG8G9oErWiMD8Qo.pdf" target="_blank" rel="noopener">Abrir publicación en PDF</a>
+        } @else {
+          <span class="migration-state">Documento en migración</span>
+        }
+      </div>
+    </article>
+  }
+</main>
+
+<section class="learning-index">
+  <h2>Aprendizajes documentados en PDEA Chaparral</h2>
+  <ul>
+    <li>Gestión orientada a resultados</li>
+    <li>Acompañamiento presencial y digital</li>
+    <li>Trabajo por grupos y redes de amistad</li>
+    <li>Diagnóstico con enfoque de medios de vida sostenibles</li>
+    <li>Seguridad alimentaria y comercialización</li>
+  </ul>
+</section>

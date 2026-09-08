@@ -1,0 +1,14 @@
+<main class="service-shell">
+  <header>
+    <span>Integración segura pendiente</span>
+    <h1>{{ service.title }}</h1>
+    <p>{{ service.summary }}</p>
+  </header>
+  <section>
+    <h2>Condiciones antes de publicar el servicio</h2>
+    <ul>
+      @for (requirement of service.requirements; track requirement) { <li>{{ requirement }}</li> }
+    </ul>
+  </section>
+  <aside>Esta pantalla no solicita datos personales hasta contar con un contrato de integración, reglas de privacidad y mensajes que eviten la enumeración de registros.</aside>
+</main>

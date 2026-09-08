@@ -1,0 +1,18 @@
+import { ProjectSummary } from './content.models';
+
+export const PROJECTS: readonly ProjectSummary[] = [
+  { slug: 'el-roble', period: '2019-2022', title: 'Fortalecimiento del agronegocio de café El Roble', territory: 'Ataco', evidence: '101 familias; COP 1.742.617.131; código 2019-2570007362', field: 'Desarrollo productivo', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'pdea-chaparral', period: '2022-2023', title: 'PDEA Chaparral, FAO 2310070', territory: 'Chaparral', evidence: '420 familias; extensión mixta y gestión por resultados', field: 'Extensión agropecuaria', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'pdea-tolima', period: '2019', title: 'PDEA Tolima, FAO 2307126', territory: 'Ataco, Chaparral, Planadas y Rioblanco', evidence: '3.000 productores; atención mixta digital y presencial', field: 'Extensión agropecuaria', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'yuma-citricultores', period: '2019', title: 'YUMA 01-2019', territory: 'Territorio citrícola', evidence: '200 citricultores; cinco asociaciones', field: 'Desarrollo productivo', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'pmea-fresno', period: '2018', title: 'PMEA Fresno, contrato 153', territory: 'Fresno', evidence: '150 productores', field: 'Extensión agropecuaria', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'alianza-gulupa-2018', period: '2018', title: 'Alianza productiva de gulupa, contrato 37193901-2018', territory: 'Por confirmar en ficha final', evidence: 'COP 833.952.000', field: 'Alianzas productivas', contentStatus: 'CONTENT_REVIEW_REQUIRED', reviewedAt: '2026-08-24' },
+  { slug: 'pgat-adr-cadi', period: '2017', title: 'PGAT ADR-CADI, CPSCAD201709', territory: 'Herveo, Fresno, Falan, Mariquita, Lérida, Ibagué y Cajamarca', evidence: '983 productores', field: 'Extensión agropecuaria', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'pgat-fresno', period: '2016', title: 'PGAT Fresno, contrato 129', territory: 'Fresno', evidence: '100 productores', field: 'Extensión agropecuaria', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'reforestacion-cortolima', period: '2015', title: 'Reforestación Cortolima 0414/2015', territory: 'Cuenca en entorno de Ibagué', evidence: '46 ha; 5.000 árboles', field: 'Ambiente', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'pgat-madr-prohaciendo', period: '2015', title: 'PGAT MADR-Prohaciendo, contratos 336-340', territory: 'Falan, Fresno, Natagaima, Lérida y Anzoátegui', evidence: '1.300 productores', field: 'Extensión agropecuaria', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'madr-finagro', period: '2014', title: 'MADR-Finagro, contratos 085/044', territory: 'Fresno y Falan', evidence: '381 productores', field: 'Desarrollo productivo', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'cordesarrollo', period: '2014', title: 'Consultoría CORDESARROLLO, contrato 017', territory: 'Villahermosa y Líbano', evidence: 'Preinversión cafetera; COP 2.000.000.000', field: 'Desarrollo productivo', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'alianza-gulupa-2013', period: '2013', title: 'Alianza productiva de gulupa, contrato 068-2013', territory: 'Cajamarca', evidence: 'COP 642.784.000', field: 'Alianzas productivas', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+  { slug: 'alianza-platano-2013', period: '2013', title: 'Alianza productiva de plátano, contrato 049-2013', territory: 'Lérida', evidence: 'COP 565.764.000', field: 'Alianzas productivas', contentStatus: 'VERIFIED', reviewedAt: '2026-08-24' },
+];

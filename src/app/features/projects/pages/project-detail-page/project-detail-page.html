@@ -1,0 +1,43 @@
+<a class="back-link" routerLink="/proyectos">Volver al archivo de proyectos</a>
+
+<header class="detail-hero">
+  <div class="detail-title">
+    <span>Ataco, Tolima</span>
+    <h1>El Roble</h1>
+    <p>Fortalecimiento de un agronegocio de café sostenible con 101 familias de siete veredas de Ataco.</p>
+  </div>
+  <dl>
+    <div><dt>Código</dt><dd>2019-2570007362</dd></div>
+    <div><dt>Valor publicado</dt><dd>COP 1.742.617.131</dd></div>
+    <div><dt>Financiación reportada</dt><dd>Fondo Colombia en Paz / Colombia Sostenible</dd></div>
+    <div><dt>Periodo de referencia</dt><dd>2019-2022</dd></div>
+    <div><dt>Revisión de contenido</dt><dd>24 de agosto de 2026</dd></div>
+  </dl>
+</header>
+
+<figure class="project-banner">
+  <picture>
+    <source type="image/avif" srcset="images/el-roble-banner-1200.avif">
+    <source type="image/webp" srcset="images/el-roble-banner-1200.webp">
+    <img src="images/archive/el-roble-banner-original.png" width="3780" height="1890" alt="Banner institucional publicado del Proyecto El Roble" fetchpriority="high">
+  </picture>
+  <figcaption>Activo institucional preservado del sitio vigente. El contenido del expediente se reconstruye en HTML para mantener accesibilidad y trazabilidad.</figcaption>
+</figure>
+
+<main class="detail-content">
+  <section>
+    <h2>Alcance verificable</h2>
+    <p>El sitio vigente documenta 101 familias cafeteras, el código contractual y el valor publicado. No se extrapolan resultados productivos sin una fuente adicional.</p>
+  </section>
+  <section>
+    <h2>Siete veredas</h2>
+    <ul>
+      @for (village of villages; track village) { <li>{{ village }}</li> }
+    </ul>
+  </section>
+  <section class="source-box">
+    <h2>Estado de la información</h2>
+    <p>Contenido verificado contra el sitio institucional al 24 de agosto de 2026. Las fechas de cada hito y los resultados de producción requieren documentación complementaria antes de publicarse.</p>
+    <a href="https://www.corporacionlosyarumos.org/" target="_blank" rel="noopener">Consultar sitio institucional vigente</a>
+  </section>
+</main>

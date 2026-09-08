@@ -1,0 +1,10 @@
+:host { display: block; }
+.service-shell { width: min(100% - 2rem, 70rem); margin-inline: auto; padding-block: clamp(5rem, 12vw, 10rem); }
+.service-shell header > span { color: var(--color-water-dark); font-weight: 750; }
+.service-shell h1 { max-width: 12ch; margin: 1rem 0 0; font: 620 clamp(3.5rem, 8vw, 6.5rem) / .95 var(--font-display); letter-spacing: -.045em; }
+.service-shell header p { max-width: 62ch; color: var(--color-text-muted); font-size: 1.1rem; line-height: 1.7; }
+.service-shell section { margin-block-start: clamp(4rem, 8vw, 7rem); padding-block-start: 1.5rem; border-block-start: 1px solid var(--color-ink); }
+.service-shell h2 { margin: 0; font: 610 clamp(2rem, 4vw, 3.5rem) / 1 var(--font-display); letter-spacing: -.03em; }
+.service-shell ul { margin: 2rem 0 0; padding: 0; list-style: none; border-block-start: 1px solid var(--color-line); }
+.service-shell li { padding-block: 1rem; border-block-end: 1px solid var(--color-line); }
+.service-shell aside { margin-block-start: 3rem; padding: 1.5rem; color: var(--color-water-muted); background: var(--color-water-dark); border-radius: var(--radius-panel); line-height: 1.65; }

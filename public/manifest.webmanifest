@@ -1,0 +1,16 @@
+{
+  "name": "Corporación Los Yarumos",
+  "short_name": "Corpoyarumos",
+  "lang": "es-CO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f4ed",
+  "theme_color": "#17241b",
+  "icons": [
+    {
+      "src": "/brand/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

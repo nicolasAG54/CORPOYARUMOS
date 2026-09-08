@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 124" role="img" aria-labelledby="title desc">
+  <title id="title">Corpoyarumos</title>
+  <desc id="desc">Símbolo del mockup aprobado y wordmark Corpoyarumos.</desc>
+  <path fill="#E8B719" d="M50 59C53 52 60 48 68 48c10 0 18 6 21 16H73c-8-2-15-4-23-5Z"/>
+  <path fill="#2E858C" d="M70 66c9-3 19-3 29-1 0 17-9 31-25 40-13-7-24-13-33-21-3-3-1-6 5-8 9-3 17-6 24-10Z"/>
+  <path fill="#174A31" d="M45 21 37 24 29 29 21 37 17 43 13 53 13 74 19 89 24 95 36 103 42 106 59 110c-13-9-25-17-31-26-2-5-1-10 2-14 2-4 5-7 9-9-7-2-11-5-12-11l1-10 2-4 10-10 7-4Z"/>
+  <path fill="#174A31" stroke="#F3F4ED" stroke-width="4" stroke-linejoin="round" d="M28 55c13-2 25 1 37 7 8 4 15 5 22 4 3 0 5 2 3 4-2 3-7 4-13 3-11-1-21-5-30-9-7-4-13-4-19-2Z"/>
+  <circle cx="42" cy="46" r="8.5" fill="#174A31"/>
+  <text x="111" y="78" fill="#174A31" font-family="'Public Sans', Arial, Helvetica, sans-serif" font-size="25.5" font-weight="700" letter-spacing="1.3">CORPOYARUMOS</text>
+</svg>
