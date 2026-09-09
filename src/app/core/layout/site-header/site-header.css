@@ -71,10 +71,31 @@
 .brand {
   flex: 0 0 auto;
   display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: inherit;
+  text-decoration: none;
 }
-.brand img {
-  width: clamp(15.5rem, 23vw, 20rem);
+.brand-symbol {
+  width: 5.15rem;
   height: auto;
+}
+.brand-copy {
+  display: grid;
+  gap: 0.2rem;
+}
+.brand-copy strong {
+  color: #a36f00;
+  font: italic 640 clamp(1.08rem, 1.45vw, 1.32rem) / 1.05 var(--font-display);
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+}
+.brand-copy small {
+  color: #037eb8;
+  font-size: 0.64rem;
+  font-weight: 760;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 .primary-navigation {
   gap: clamp(0.9rem, 1.65vw, 1.55rem);
@@ -190,8 +211,17 @@
   .nav-shell {
     min-height: 4.25rem;
   }
-  .brand img {
-    width: min(13.25rem, 60vw);
+  .brand {
+    gap: 0.45rem;
+  }
+  .brand-symbol {
+    width: 3.7rem;
+  }
+  .brand-copy strong {
+    font-size: clamp(0.88rem, 4vw, 1rem);
+  }
+  .brand-copy small {
+    font-size: 0.54rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {

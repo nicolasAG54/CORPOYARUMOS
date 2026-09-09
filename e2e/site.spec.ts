@@ -22,10 +22,14 @@ test('approved brand and editorial assets remain stable after client hydration',
   const heroImage = page.locator('.hero-media img');
   await expect(heroImage).toHaveAttribute('src', /hero-jornada-campo-outpaint-left-v2/);
   await expect(page.locator('.story-archive img')).toHaveAttribute('src', /el-roble-mock-v2/);
-  const headerLogo = page.locator('.brand img');
+  const headerLogo = page.locator('.brand-symbol');
   await expect(headerLogo).toHaveAttribute(
     'src',
-    /corporacion-los-yarumos-logo-horizontal-full-color\.svg/,
+    /corporacion-los-yarumos-simbolo-full-color\.svg/,
+  );
+  await expect(page.locator('.brand-copy strong')).toHaveText('Corporación los Yarumos');
+  await expect(page.locator('.brand-copy small')).toHaveText(
+    'Trabajando por el desarrollo sostenible',
   );
   await expect(page.locator('.conversation img')).toHaveAttribute(
     'src',
